@@ -17,7 +17,10 @@ namespace shanuMVCUserRoles.Models
             // Add custom user claims here
             return userIdentity;
         }
-    }
+        public virtual ICollection<Administrator> Administrator { get; set; }
+        public virtual Mentor Mentor { get; set; }
+        public virtual Mentee Mentee { get; set; }
+    }  
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
