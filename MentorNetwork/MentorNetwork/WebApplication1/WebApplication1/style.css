@@ -1,0 +1,52 @@
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/********** Header *********/
+.navbar {
+    background: #fff;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 0;
+    background: #fff url(images/background.jpg);
+    
+    
+}
+
+.jumbotron img{
+    background: #fff;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+/******* Catalogue *******/
+.thumbnail img{
+    width: 220px;
+    height: 200px;
+}
+
+
+
+.caption {
+	text-align: center;
+}
+
+.images {
+    width: 250px;
+    height: 300px;
+}
+
+.thumbnail {
+    padding-top: 15px;
+}
+
+
+
+

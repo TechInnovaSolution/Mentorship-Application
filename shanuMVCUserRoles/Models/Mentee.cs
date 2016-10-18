@@ -65,7 +65,7 @@ namespace shanuMVCUserRoles.Models
 
         public virtual Administrator Administrator { get; set; }
         public virtual ICollection<Pair> Pair { get; set; }
-        public virtual ICollection<Evaluation> Evaluation { get; set; }
+       // public virtual ICollection<Evaluation> Evaluation { get; set; }
         public virtual ApplicationUser User { get; set; }
 
     }

@@ -173,8 +173,7 @@
     <Compile Include="Controllers\MenteeController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
-    <Compile Include="DataAccessLayer\Mentorship.cs" />
-    <Compile Include="DataAccessLayer\MentorshipInitializer.cs" />
+    <Compile Include="DataAccessLayer\ApplicationDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
